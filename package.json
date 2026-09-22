@@ -1,6 +1,6 @@
 {
   "name": "vitor-lorenzo-convite",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Convite digital com confirmação de presença e painel administrativo.",
   "main": "server.js",
@@ -8,8 +8,8 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "better-sqlite3": "^11.8.1",
     "express": "^5.1.0",
-    "express-session": "^1.18.2"
+    "express-session": "^1.18.2",
+    "pg": "^8.16.3"
   }
 }
